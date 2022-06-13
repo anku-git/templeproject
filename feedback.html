@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    crossorigin="anonymous" />
+</head>
+<body>
+    <h1 class="feedback"><b><u>feedback form</u></b></h1>
+    <div class="container">
+        <div class="feedback-box">
+            <div class="emoji">
+                <div id="emoji">
+                <img src="img/poor.png">
+                <img src="img/bad.png">
+                <img src="img/okay.png">
+                <img src="img/good.png">
+                <img src="img/excellent.png">
+            </div>
+        </div>
+        <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+
+        </div>
+        <div class="form">
+     <form action="feedback.php" method="POST">
+            NAME:<input type="text" placeholder="enter your name" name="name"><br>
+            EMAIL:<input type="email" placeholder="enter your email" name="email"><br>
+            MOBILE:<input type="text" placeholder="enter your number" name="mobileNum"><br>
+            <h2 class="about-website">write some line about the website</h2>
+            <textarea class="textarea" rows="5" cols="40" placeholder="write about the website" name="textarea"></textarea><br>
+            <button class="btn" name="submit_button">submit</button>
+        </form>
+         </div>
+        </div>
+    <script>
+        var stars=document.getElementsByClassName("fas");
+        var emoji=document.getElementById("emoji");
+        stars[0].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#4e4e4e";
+            stars[2].style.color="#4e4e4e";
+            stars[3].style.color="#4e4e4e";
+            stars[4].style.color="#4e4e4e";
+            emoji.style.transform="translateX(0)";
+
+        }
+        stars[1].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#4e4e4e";
+            stars[3].style.color="#4e4e4e";
+            stars[4].style.color="#4e4e4e";
+            emoji.style.transform="translateX(-100px)";
+
+        }
+        stars[2].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#4e4e4e";
+            stars[4].style.color="#4e4e4e";
+            emoji.style.transform="translateX(-200px)";
+
+        }
+
+        stars[3].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#ffd93b";
+            stars[4].style.color="#4e4e4e";
+            emoji.style.transform="translateX(-300px)";
+
+        }
+        stars[4].onclick=function(){
+            stars[0].style.color="#ffd93b";
+            stars[1].style.color="#ffd93b";
+            stars[2].style.color="#ffd93b";
+            stars[3].style.color="#ffd93b";
+            stars[4].style.color="#ffd93b";
+            emoji.style.transform="translateX(-400px)";
+
+        }
+
+
+    </script>
+</body>
+</html>

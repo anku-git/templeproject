@@ -1,0 +1,136 @@
+#content{
+	display:flex;
+	justify-content:center;
+	text-transform: uppercase;
+    font-family: cursive;
+	color: rgba(228, 62, 243, 0.767); 
+	background-color:rgba(120, 241, 195, 0.89);
+
+}
+#about-body-start{
+	margin-left:100px;
+	margin-right: 100px;
+	
+}
+#about-img img{
+	display:flex;
+	height:300px;
+	width:500px;
+	margin-top:30px;
+	
+}
+#second-img img{
+	height:300px;
+	width:500px;
+	margin-top:30px;
+	float:right;
+}
+#about-body
+{
+	display:flex;
+	background-color:
+}
+
+#about-content{
+	margin-top:50px;
+	margin-left:30px;
+	margin-right:20px;
+	
+}
+
+#para-1-content{
+	font-size:18px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+	
+}
+
+#second-about-content{
+	display:flex;
+}
+.para-2-content{
+	font-size:18px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+	 
+	
+}
+#about-content1{
+	margin-top:70px;
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+.about-content-heading{
+	color:#657a9a;
+}
+
+
+.dn-display-left{
+	 position:relative;
+     left:1px;
+     bottom: 200px;
+     font-size:30px;
+     background-color:black;
+     border:none;
+     color:white;
+     
+}
+.dn-display-left:hover{
+	cursor:pointer;
+	background-color:#bfbfbf;
+	color:black;
+	
+}
+.dn-display-right{
+	 position:relative;
+     left:740px;
+     bottom: 200px;
+     font-size:30px;
+      background-color:black;
+     border:none;
+     color:white;
+     
+ }
+ .dn-display-right:hover{
+	cursor:pointer;
+	background-color:#bfbfbf;
+	color:black;
+	
+}
+
+#about-content-danda-nagraja-temple{
+	display:none;
+	justify-content:center;
+	display:flex;
+	margin:0px;
+	
+	
+}
+.content-dn{
+	position:relative;
+}
+#history-of-temple{
+	 letter-spacing: 0.6px;
+	line-height: 25px;
+	 font-size:19px;
+	 text-align:center;
+	 padding:20px;
+	 margin:13px;
+	 color:#968918;
+	 border-radius:15px;
+	 background-color:#e6e6e6;
+	 
+	 }
+
+
+
+
+
+
+
+
+
+

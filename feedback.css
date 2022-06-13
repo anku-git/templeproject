@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poopins'sans-serif;
+}
+
+
+body{
+    margin-top: 70px;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    margin: 50px auto;
+    width:600px;
+    height:500px;
+    background-image: linear-gradient(to right, rgba(243, 87, 87, 0.911), rgb(151, 150, 221));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.feedback-box{
+   
+    padding: 50px,100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emoji{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+  
+    border-bottom: 30px;
+    overflow: hidden;
+}
+.emoji img{
+    width:100px;
+    margin:10px,0px;
+}
+#emoji{
+    display: flex;
+    align-items: center;
+   transform: translateX(-400px);
+   transition: 0.3s;
+}
+.rating .fas{
+    font-size: 40px;
+    color: #e7dddd;
+    cursor: pointer;
+
+}
+.form{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.form input{
+    margin:5px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.btn{
+    margin:5px 6px;
+    padding: 10px 40px;
+    font-size: 16px;
+    align-items: center;
+   
+}
+.btn:hover{
+    background-color: rgb(122, 180, 235);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.textarea{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.feedback{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    text-transform: capitalize;
+    color: rgb(243, 235, 235);
+}
+.about-website{
+    color:rgb(78, 218, 50);
+    animation: about-website 3s ease-out 0s alternate infinite none running;
+
+}
+@keyframes about-website{
+    0%{color:rgba(15, 252, 54, 0.699);
+}
+25%{
+   color:rgb(233, 236, 27);
+}
+75%{
+   color:rgb(7, 248, 248);
+   
+
+}
+100%{
+   color:rgb(235, 13, 105);
+}
+}

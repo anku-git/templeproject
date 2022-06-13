@@ -1,0 +1,182 @@
+.container{
+    display: block;
+    /* border:2px solid rgb(248, 83, 83); */
+    box-shadow: 6px 8px 2px #3de9a7fb;
+    margin-left:5px;
+   
+}
+.main-container-name{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: rgba(228, 62, 243, 0.767); 
+	/* text-decoration: underline; */
+	background-color:rgba(120, 241, 195, 0.89);
+}
+.col-6 img{
+    height: 300pcx;
+    width:550px;
+    margin-left:80px;
+    margin-top:20px;
+    animation-name:col-6;
+    animation-duration: 5s;
+
+}
+@keyframes col-6 {
+    0%{
+        opacity: 0%;
+        
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+}
+.col-6 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+   
+}
+
+.row{
+display: flex;
+}
+.col-1 img{
+    height: 400px;
+    width:550px;
+    margin-top:200px;
+    margin-left: 20px;
+    animation-name:col-1;
+    animation-duration: 5s;
+}
+@keyframes col-1 {
+    0%{
+        opacity: 0%;
+      
+    }
+    100%{
+        opacity: 1;
+      
+       
+        
+    }
+}
+
+.col-1 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.col-2 img{
+    height: 300pcx;
+    width:550px;
+    margin-top:30px;
+    margin-left: 20px;
+    animation-name:col-2;
+    animation-duration: 5s;
+}
+@keyframes col-2 {
+    0%{
+        opacity: 0%;
+       
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+
+}
+.col-2 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.col-3 img{
+    height: 300pcx;
+    width:550px;
+    margin-left:80px;
+    animation-name:col-3;
+    animation-duration: 5s;
+}
+@keyframes col-3 {
+    0%{
+        opacity: 0%;
+       
+      
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+}
+
+.col-3 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.col-4 img{
+    height: 300px;
+    width:550px;
+    margin-top:250px;
+    margin-left: 20px;
+    animation-name:col-4;
+    animation-duration: 5s;
+}
+@keyframes col-4 {
+    0%{
+        opacity: 0%;
+      
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+}
+    
+
+.col-4 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.col-5 img{
+    height: 300pcx;
+    width:550px;
+    margin-left: 20px;
+    animation-name:col-5;
+    animation-duration: 5s;
+}
+@keyframes col-5 {
+    0%{
+        opacity: 0%;
+       
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
+}
+
+.col-5 img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.videos video{
+   margin-top: 30px;
+   margin-left: 30px;
+   border: 2px solid rgba(51, 206, 218, 0.719);
+}
+.videos{
+    display: flex;
+}
+.videos .col-6 img{
+    margin-top: 30px;
+    box-shadow: 5px 10px #0ae942ea;
+    height: 300px;
+    width: 600px;
+}       
+
+

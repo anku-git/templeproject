@@ -1,0 +1,235 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+#content-pages{
+    height: 400px;
+    
+}
+
+
+#front-pages{ 
+    list-style: none;
+    
+    display: flex;
+    padding: 34px;
+    justify-content: center;
+    /* margin:24px 4px; */ 
+   
+
+}
+#front-pages li a{
+    font-size:27px;
+    font-weight: 200px;
+    text-transform: capitalize;
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+    
+}
+#front-pages li:hover{
+    cursor: pointer;
+    /* background-color:black; */
+    /* color:white; */
+    border-bottom: 3px solid rgb(24, 9, 230);
+}
+#content-pages{
+    background:url(img/nature5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity:4;
+   
+  
+}
+
+li a{
+    padding: 44px;
+}
+#icon-content{
+    display: flex;
+    text-align: center;
+}
+#icon-content i{
+    padding: 9px;
+    font-size: 17px;
+}
+#facebook-icon{
+    color:white;
+    background-color: rgb(6, 6, 48);
+    transition:-3s ;
+    border-radius: 8px;
+    margin:5px;
+}
+#facebook-icon:hover{
+    padding-left: 5px;
+    font-size:20px ;
+    cursor: pointer;
+}
+#insta-icon{
+    color:white;
+    background-color: rgb(238, 74, 45);
+    border-radius: 8px;
+    margin:5px;
+}
+#insta-icon:hover{
+    padding-left: 5px;
+    font-size:20px ;
+    cursor: pointer;
+
+}
+#twitter-icon{
+    background-color: rgb(87, 204, 240);
+    color: white;
+    border-radius: 8px;
+    margin:5px;
+}
+#twitter-icon:hover{
+    padding-left: 5px;
+    font-size:20px ;
+    cursor: pointer;
+}
+#header-main{
+   text-align: center;
+   color:rgba(206, 169, 7, 0.952);
+   letter-spacing: 4px;
+   line-height: 15px;
+   font-size: 34px;
+   font-style: italic;
+   margin-bottom:44px;
+   
+  
+}
+.para-1{
+    text-align: center; 
+    margin-top:44px;
+    font-size: 22px;
+    color:rgba(12, 12, 11, 0.973);
+   
+    animation: para-1 4s ease-out 1s alternate infinite none running;
+    
+    
+}
+@keyframes  para-1{
+    0%{ color:rgba(12, 12, 11, 0.973);;
+}
+25%{
+   color:rgb(233, 236, 27);
+}
+75%{
+   color:rgb(7, 248, 248);
+   
+
+}
+100%{
+   color:rgb(235, 13, 105);
+}
+}
+.para-2{
+    text-align: center; 
+    margin:44px;
+    font-size: 18px;
+    
+    
+}
+
+#btn-menu{
+    display: flex;
+    margin:  45px auto;
+    font-size: 21px;
+    font-family:  Georgia, serif;;
+    text-transform: capitalize;
+    padding: 4px 30px;
+    border-radius: 16px;
+    background-color:white;
+    color:black ;
+    border: none;
+    
+
+}
+#btn-menu:hover{
+   background-color: rgba(0, 0, 0, 0.418);
+    color:white;
+    cursor: pointer;
+}
+#discover-place{
+    padding-top: 35px;
+    text-align: center;
+    height: 390px;
+    width: 100%;
+    background: rgba(240, 225, 221, 0.952);
+    opacity: 0.7;
+    
+}
+.heading{
+    letter-spacing: 4px;
+    line-height: 15px;
+    font-size: 34px;
+    font-style: italic;
+    color:rgba(206, 169, 7, 0.952);
+
+}
+#store{
+    letter-spacing: 8px;
+    line-height: 15px;
+    padding: 23px 12px;
+    font-size: 26px;
+
+
+}
+#service-main{
+    letter-spacing: 10px;
+    line-height: 15px;
+    padding: 23px 15px;
+    font-size:26px;
+
+}
+#our-service-store{
+   text-align: center;
+   margin-top: 15px;
+   height:650px;
+
+}
+#nearby-place{
+    height:450px;
+    width:75%;
+    /* background-color: blue;
+    border: 2px solid black; */
+    display: flex;
+    margin:auto;
+
+}
+#box-1{
+    margin:6px;
+    border:none;
+    text-transform: capitalize;
+    background-color: rgba(179, 218, 230, 0.877);
+    box-shadow:3px 5px 4px #ee4c4c;
+}
+.content{
+     margin:32px 13px; 
+    /* display: flex; */
+    box-sizing: border-box;
+}
+.para1{
+    margin:30px 5px;
+    padding: 20px;
+    /* font-size: 18px; */
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+#box-2{
+    margin:6px;
+    border:none;
+    text-transform: capitalize;
+    background-color: rgba(179, 218, 230, 0.877);
+    box-shadow:3px 5px 4px #ee4c4c;
+}
+#box-3{
+    margin:6px;
+    border:none;
+    text-transform: capitalize;
+    background-color: rgba(179, 218, 230, 0.877);
+    box-shadow:3px 5px 4px #ee4c4c;
+}
